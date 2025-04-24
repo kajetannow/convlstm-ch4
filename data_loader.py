@@ -29,7 +29,8 @@ def stack_sequences(data, sq_len=20):
     return sequences
 
 
-def load_daily_ch4_dataset(data_dir = "./ch4_data/", location="Poznan"):
+def load_daily_ch4_dataset(location="Poznan"):
+    data_dir = f"./data/output_copernicus/{location}/"
     data = []
     for filename in sorted(os.listdir(data_dir)):
         if filename.endswith(".tiff"):
@@ -38,7 +39,7 @@ def load_daily_ch4_dataset(data_dir = "./ch4_data/", location="Poznan"):
             data.append(ch4_resized)
     #np_data = np.array(data)
     np_data = stack_sequences(data)
-    np.save(f"./CH4_stacked_{location}.npy", np_data)
+    np.save(f"./data/input_convlstm/CH4_stacked_{location}.npy", np_data)
     return np_data
 
 

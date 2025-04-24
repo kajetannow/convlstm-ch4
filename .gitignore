@@ -1,3 +1,6 @@
 .env
+__pycache__
+.ipynb_checkpoints
+!/data/
 /data/output_copernicus/*
 /data/input_convlstm/*
