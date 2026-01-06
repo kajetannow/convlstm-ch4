@@ -5,3 +5,5 @@ __pycache__
 /data/output_copernicus/*
 /data/output_copernicus_mean/*
 /data/input_convlstm/*
+/data/export/*
+/data/*.png

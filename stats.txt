@@ -1,0 +1,28 @@
+I
+Epoch:10 Training Loss:169.58 Validation Loss:187.62
+Epoch:10 Training Loss:169.58 Validation Loss:187.62
+Epoch:10 Training Loss:169.58 Validation Loss:187.62
+Ia - 3 layers
+Epoch:10 Training Loss:0.005301 Validation Loss:0.005317
+CPU times: user 57min 54s, sys: 24min 31s, total: 1h 22min 25s
+Wall time: 1h 22min 36s
+Epoch:10 Test Loss:0.009153
+
+II - 3 layers
+Epoch:20 Training Loss:0.005268 Validation Loss:0.004978
+Epoch:20 Training Loss:0.005268 Validation Loss:0.004955
+CPU times: user 2h 16min 32s, sys: 55min 13s, total: 3h 11min 46s
+Wall time: 3h 12min 10s
+Epoch:20 Test Loss:0.009252
+
+III - 2 layers
+Epoch:10 Training Loss:0.005518 Validation Loss:0.005364
+CPU times: user 30min 31s, sys: 8min 30s, total: 39min 2s
+Wall time: 39min 2s
+Test Loss:0.009161
+
+IV
+Epoch:20 Training Loss:0.004901 Validation Loss:0.006758
+CPU times: user 1h 16min 30s, sys: 21min 32s, total: 1h 38min 2s
+Wall time: 1h 38min 2s
+Test Loss:0.009520
